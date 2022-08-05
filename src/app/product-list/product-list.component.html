@@ -8,9 +8,11 @@
   </h3>
 
   <!-- Jika data product pada key description nilai tidak null/kosong -->
-  <p *ngIf="product.description">
-    Description: {{ product.description }}
-  </p>
+  <p *ngIf="product.description">Description: {{ product.description }}</p>
+
+  <button type="button" (click)="share()">
+    Share
+  </button>
 </div>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
